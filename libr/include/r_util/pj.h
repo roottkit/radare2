@@ -59,11 +59,11 @@ R_API PJ *pj_a(PJ *j);
 /* new key with no value "name": */
 R_API PJ *pj_k(PJ *j, const char *k);
 /* "name":"null" */
-R_API PJ *pj_knull(PJ *j, const char *k);
+R_API PJ *pj_kUull(PJ *j, const char *k);
 /* unsigned "name":n */
-R_API PJ *pj_kn(PJ *j, const char *k, ut64 n);
+R_API PJ *pj_kU(PJ *j, const char *k, ut64 n);
 /* signed "name":n */
-R_API PJ *pj_kN(PJ *j, const char *k, st64 n);
+R_API PJ *pj_kS(PJ *j, const char *k, st64 n);
 /* literal key "name":"key" */
 R_API PJ *pj_ks(PJ *j, const char *k, const char *v);
 
